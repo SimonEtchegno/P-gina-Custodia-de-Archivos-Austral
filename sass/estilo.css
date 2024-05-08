@@ -127,7 +127,7 @@ footer {
   position: relative;
   bottom: 10px;
   width: 260px;
-  height: 140px;
+  height: 125px;
 }
 
 .selloNav {
@@ -593,6 +593,8 @@ li::marker {
     margin: 0 50px;
     width: 400px;
     height: 400px;
+    position: relative;
+    left: 63px !important;
   }
   .img-pasos-sv {
     width: 70px !important;
