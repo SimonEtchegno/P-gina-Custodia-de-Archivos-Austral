@@ -1,0 +1,107 @@
+.tituloServicio {
+  color: #003399;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.parrafoServicio {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.containerliPasos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+
+.containerliPasos li {
+  font-size: 19px;
+  margin-bottom: 40px !important;
+}
+
+.containerImgServicio {
+  position: relative;
+  left: 80px !important;
+  margin-bottom: 150px !important;
+  margin-top: 100px;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 35px;
+}
+
+.container-img-pasos {
+  margin-bottom: 20px;
+}
+
+.p-servicio-adicional {
+  margin: 20px;
+}
+
+.h2-servicio-adicional {
+  margin-top: 100px;
+}
+
+li::marker {
+  color: #003399;
+}
+
+.container-adicional li::marker {
+  color: #ff6600;
+}
+
+@keyframes moviendrew {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+.dividerIndex {
+  height: 0.8rem;
+  max-width: 3.4rem;
+  margin: 1.5rem auto;
+  background-color: var(--primary-color);
+  opacity: 1;
+  padding: 1px;
+  margin-bottom: 50px;
+}
+
+.parrafo-flexible {
+  font-size: 40px;
+  color: #003399;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.parrafo-flexible span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #ffffff;
+  animation: escribir 4s steps(100) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}/*# sourceMappingURL=servicios.css.map */

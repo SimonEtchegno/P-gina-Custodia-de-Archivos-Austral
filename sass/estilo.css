@@ -1,0 +1,804 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.dividerIndex {
+  height: 0.8rem;
+  max-width: 3.4rem;
+  margin: 1.5rem auto;
+  background-color: var(--primary-color);
+  opacity: 1;
+  padding: 1px;
+}
+
+.dividerIndexSeccion {
+  height: 0.8rem;
+  max-width: 5rem;
+  background-color: var(--primary-color);
+  opacity: 1;
+  padding: 1.5px;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #313036;
+}
+
+.iconoFooter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  padding: 0px !important;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px !important;
+}
+
+.container-redes {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.creador {
+  padding: 0px !important;
+}
+
+.creador__creadorPagina {
+  margin-bottom: 0px;
+  padding: 10px;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.creadorPagina__creador {
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.creadorPagina__creador span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #313036;
+  border-left: 2px solid #959595;
+  animation: escribir 3s steps(36) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+.creadorPagina__creador:hover {
+  color: white !important;
+}
+
+.containerSwip {
+  display: flex !important;
+  justify-content: flex-end !important;
+  position: relative;
+  right: 40px;
+  bottom: 50px;
+}
+
+.containerSwip img {
+  width: 32px !important;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 0.9s;
+}
+
+.aFacebook {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.aFacebook:hover {
+  color: #959595 !important;
+}
+
+.imgNav {
+  position: relative;
+  bottom: 10px;
+  width: 260px;
+  height: 140px;
+}
+
+.selloNav {
+  position: absolute;
+  left: 220px;
+  bottom: 40px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  font-size: 20px;
+  color: white;
+  transition-delay: 1.5s;
+}
+
+.navFijo {
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  text-anchor: start !important;
+  text-underline-offset: 8px;
+  -webkit-text-size-adjust: 1% !important;
+  -moz-text-size-adjust: 1% !important;
+  text-size-adjust: 1% !important;
+  padding-top: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.7s;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  background-color: var(--primary-color);
+}
+
+.nav-link:hover::after {
+  transform: scale(1, 1);
+}
+
+/* VARIABLES */
+:root {
+  --primary-color: #ff6600;
+  --secondary-color: #003399;
+  --font-weight: 700;
+}
+
+.home {
+  background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  height: 1000px !important;
+  width: 100% !important;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.textoParallaxIndex {
+  position: relative;
+  top: 150px !important;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.parrafo-parallax {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.textosParallax {
+  position: relative;
+  top: 160px;
+  color: whitesmoke;
+}
+
+.dividerParallax {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  opacity: 1;
+  padding: 1.5px;
+  width: 60px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swipeDown {
+  position: relative;
+  top: 100px !important;
+  color: var(--primary-color);
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 0.9s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.containerIMGIndex {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.seccion {
+  margin-top: 200px;
+  margin-bottom: 300px;
+  background-color: rgba(165, 165, 165, 0.0549019608);
+  padding: 150px;
+  border-radius: 25px;
+  -webkit-backdrop-filter: blur(5px) !important;
+          backdrop-filter: blur(5px) !important;
+}
+
+.seccion img {
+  width: 250px !important;
+  margin-top: 30px !important;
+}
+
+.containerSeccion__seccionTitulo {
+  color: #003399;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.containerSeccion__seccionDescripcion {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.tituloServicio {
+  color: #003399;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.parrafoServicio {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.containerliPasos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+
+.containerliPasos li {
+  font-size: 19px;
+  margin-bottom: 40px !important;
+}
+
+.containerImgServicio {
+  position: relative;
+  left: 80px !important;
+  margin-bottom: 150px !important;
+  margin-top: 100px;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 35px;
+}
+
+.container-img-pasos {
+  margin-bottom: 20px;
+}
+
+.p-servicio-adicional {
+  margin: 20px;
+}
+
+.h2-servicio-adicional {
+  margin-top: 100px;
+}
+
+li::marker {
+  color: #003399;
+}
+
+.container-adicional li::marker {
+  color: #ff6600;
+}
+
+@keyframes moviendrew {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+.dividerIndex {
+  height: 0.8rem;
+  max-width: 3.4rem;
+  margin: 1.5rem auto;
+  background-color: var(--primary-color);
+  opacity: 1;
+  padding: 1px;
+  margin-bottom: 50px;
+}
+
+.parrafo-flexible {
+  font-size: 40px;
+  color: #003399;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.parrafo-flexible span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #ffffff;
+  animation: escribir 4s steps(100) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+.feedTitulo {
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  top: 25px;
+  padding-bottom: 25px;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #003399;
+}
+
+.titulo-riesgos {
+  font-size: 30px !important;
+}
+
+.container__img__riesgos {
+  margin-bottom: 10px;
+}
+
+.containerBeneficios {
+  max-width: 100% !important;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px !important;
+  background-image: url(../assets/images/Diseño\ sin\ título.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.containerBeneficios p {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container__beneficios {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: 6px;
+  height: 300px !important;
+  width: 300px !important;
+  background: rgba(255, 255, 255, 0.404);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  transition: all 300ms;
+  font-weight: 500;
+}
+
+.container__beneficios:hover {
+  transform: translateY(-10px);
+}
+
+.container__beneficios h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.beneficios {
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.container__riesgos p {
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container__riesgos h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container__riesgos:hover {
+  transform: translateY(-10px);
+}
+
+.container__riesgos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: 6px;
+  height: 300px !important;
+  width: 260px !important;
+  background: rgba(255, 255, 255, 0.404);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  transition: all 300ms;
+  font-weight: 500;
+}
+
+.ContainerBeneficios2 {
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-clientes {
+  margin-bottom: 0px !important;
+  color: #003399 !important;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.containerMarcas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+.containerMarcas .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 30px !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 976px) {
+  /* INDEX */
+  body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+  }
+  .navbar-toggler {
+    background-color: rgba(133, 133, 133, 0.8470588235) !important;
+  }
+  #navbarNavAltMarkup {
+    margin-top: 30px !important;
+  }
+  .link {
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    font-size: 30px !important;
+    text-transform: uppercase !important;
+  }
+  .navbar-nav {
+    margin-top: 30px !important;
+  }
+  .dividerIndexSeccion {
+    height: 0.8rem;
+    max-width: 5rem;
+    background-color: var(--primary-color);
+    opacity: 1;
+    padding: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-hover-zoom {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .tituloParallax2 {
+    font-size: 30px;
+  }
+  .flecha-derecha {
+    display: none;
+  }
+  .carrousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-bottom: 100px !important;
+  }
+  .elemento {
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 400px;
+    height: 400px;
+  }
+  .img-pasos-sv {
+    width: 70px !important;
+  }
+  .containerImgServicio {
+    position: relative;
+    left: 0px !important;
+    margin-bottom: 10px !important;
+    margin-top: 5px !important;
+  }
+  .containerMarcas {
+    display: none !important;
+  }
+  .containerliPasos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: 0px !important;
+    margin-bottom: 60px !important;
+    margin-left: 20px;
+  }
+  .parrafo-flexible {
+    font-size: 20px;
+    color: #003399;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  .container-servicios {
+    margin: 10px !important;
+  }
+  .container__riesgos {
+    width: 300px !important;
+  }
+  .containerBeneficios {
+    height: 0% !important;
+  }
+  .beneficios {
+    margin: 0px !important;
+  }
+  /* FIN INDEX */
+  .tituloFeed {
+    display: none;
+  }
+  .textoParallaxIndex {
+    font-size: 35px !important;
+  }
+  .textosParallax {
+    font-size: 10px !important;
+    position: relative !important;
+    top: 50px !important;
+    color: whitesmoke;
+  }
+  .home {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: repeat;
+    height: 850px;
+    width: 100% !important;
+    background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
+  }
+  footer {
+    height: 0% !important;
+    padding: 10px !important;
+  }
+  .containerSwip {
+    display: flex;
+    justify-content: center !important;
+    position: relative !important;
+    right: 0px;
+    top: 10px;
+  }
+  .containerLogosFooter {
+    display: flex;
+    justify-content: center !important;
+  }
+  .logoFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-redes .row {
+    display: flex;
+    justify-content: center;
+  }
+  .creador__creadorPagina {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .iconoFooter {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 240px;
+    padding: 0px !important;
+    margin: 10px;
+  }
+  .iconoFooter img {
+    margin-right: 10px !important;
+    position: relative;
+    bottom: 10px;
+  }
+}
+@media only screen and (min-width: 977px) and (max-width: 1377px) {
+  .textosParallax {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: relative;
+    top: 50px;
+    color: whitesmoke;
+  }
+  .img-pasos-sv {
+    width: 70px !important;
+  }
+  .h2-servicio-adicional {
+    margin-top: 50px;
+  }
+  .beneficios {
+    margin-bottom: 0px !important;
+  }
+  .container__riesgos {
+    width: 300px !important;
+  }
+  .container__beneficios {
+    overflow: hidden;
+    width: 250px !important;
+  }
+  .containerBeneficios {
+    height: 0% !important;
+  }
+  .containerBeneficios2 {
+    height: 0% !important;
+  }
+  .carrousel {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1378px) and (max-width: 1920px) {
+  .carrousel {
+    display: none;
+  }
+  .containerImg .col-lg-3 {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .containerSeccion {
+    gap: 100% !important;
+  }
+  .containerImg img {
+    margin-right: 10px !important;
+  }
+  .containerSeccion__seccionTitulo {
+    font-size: 40px !important;
+  }
+  .containerLogoSeccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .containerSeccion__seccionDescripcion {
+    text-align: justify;
+    font-size: 1em !important;
+  }
+  /* BENEFICIOS */
+  .beneficios {
+    margin-bottom: 0px !important;
+  }
+  .container__beneficios {
+    width: 260px !important;
+  }
+  .containerBeneficios {
+    height: 0% !important;
+  }
+  .containerBeneficios2 {
+    height: 0% !important;
+  }
+  .nav-link:hover {
+    text-anchor: start !important;
+    text-underline-offset: 4px;
+    -webkit-text-size-adjust: 1% !important;
+    -moz-text-size-adjust: 1% !important;
+    text-size-adjust: 1% !important;
+    padding-top: 5px;
+    color: #424242 !important;
+  }
+  .nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    transform: scale(0, 1);
+    transform-origin: center;
+    transition: transform 0.7s;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    background-color: var(--primary-color);
+  }
+  .nav-link:hover::after {
+    transform: scale(1, 1);
+  }
+}/*# sourceMappingURL=estilo.css.map */

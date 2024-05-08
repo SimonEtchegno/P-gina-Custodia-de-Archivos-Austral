@@ -1,0 +1,39 @@
+.containerIMGIndex{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+
+.seccion{
+margin-top: 200px;
+margin-bottom: 300px;
+background-color: #a5a5a50e;
+padding: 150px;
+border-radius: 25px;
+backdrop-filter: blur(5px) !important;
+}
+
+.seccion img{
+width: 250px !important;
+margin-top: 30px !important;
+}
+
+
+.containerSeccion__seccionTitulo{
+color:#003399;
+font-family: "Red Hat Display", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;  font-weight: 700;
+}
+
+
+.containerSeccion__seccionDescripcion{
+font-size: 18px;
+text-align: center;
+font-family: "Red Hat Display", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+
+}

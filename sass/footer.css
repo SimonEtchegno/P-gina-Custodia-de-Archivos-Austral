@@ -1,0 +1,94 @@
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #313036;
+}
+
+.iconoFooter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  padding: 0px !important;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px !important;
+}
+
+.container-redes {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.creador {
+  padding: 0px !important;
+}
+
+.creador__creadorPagina {
+  margin-bottom: 0px;
+  padding: 10px;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.creadorPagina__creador {
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.creadorPagina__creador span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #313036;
+  border-left: 2px solid #959595;
+  animation: escribir 3s steps(36) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+.creadorPagina__creador:hover {
+  color: white !important;
+}
+
+.containerSwip {
+  display: flex !important;
+  justify-content: flex-end !important;
+  position: relative;
+  right: 40px;
+  bottom: 50px;
+}
+
+.containerSwip img {
+  width: 32px !important;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 0.9s;
+}
+
+.aFacebook {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.aFacebook:hover {
+  color: #959595 !important;
+}/*# sourceMappingURL=footer.css.map */
