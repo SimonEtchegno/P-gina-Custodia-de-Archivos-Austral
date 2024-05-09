@@ -568,9 +568,6 @@ li::marker {
     width: 210px !important;
     height: 100px !important;
   }
-  .navFijo {
-    padding-bottom: 50px !important;
-  }
   .dividerIndexSeccion {
     height: 0.8rem;
     max-width: 5rem;
@@ -607,7 +604,7 @@ li::marker {
     display: flex !important;
     justify-content: flex-end !important;
     position: relative;
-    right: 250px;
+    right: 150px;
     bottom: 250px;
   }
   .containerSwipDerecha img {
