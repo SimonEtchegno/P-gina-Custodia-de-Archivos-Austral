@@ -79,6 +79,21 @@
     height: 400px;
 }
 
+.containerSwipDerecha {
+  display: flex !important;
+  justify-content: flex-end !important;
+  position: relative;
+  right: 250px;
+  bottom: 250px;
+}
+
+.containerSwipDerecha img {
+  width: 70px !important;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 0.9s;
+}
+
 
   .img-pasos-sv {
     width: 70px !important;
@@ -279,6 +294,10 @@
     justify-content: center;
     flex-direction: row;
 
+  }
+
+  .containerSwipDerecha{
+    display: none;
   }
 
   .containerSeccion {
