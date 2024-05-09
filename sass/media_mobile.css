@@ -8,7 +8,7 @@
     overflow-x: hidden !important;
   }
   .navbar-toggler {
-    background-color: rgba(133, 133, 133, 0.8470588235) !important;
+    background-color: #ff6600 !important;
   }
   #navbarNavAltMarkup {
     margin-top: 30px !important;
@@ -17,14 +17,18 @@
     margin-top: 20px !important;
     display: flex !important;
     justify-content: center !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
     text-transform: uppercase !important;
   }
   .navbar-nav {
-    margin-top: 30px !important;
+    margin-top: 5px !important;
   }
   .imgNav {
     width: 210px !important;
+    height: 100px !important;
+  }
+  .navFijo {
+    padding-bottom: 50px !important;
   }
   .dividerIndexSeccion {
     height: 0.8rem;
@@ -178,9 +182,6 @@
   }
   .beneficios {
     margin-bottom: 0px !important;
-  }
-  .container__riesgos {
-    width: 300px !important;
   }
   .container__beneficios {
     overflow: hidden;

@@ -11,7 +11,7 @@
 
 
   .navbar-toggler {
-    background-color: #858585d8 !important;
+    background-color: #ff6600 !important;
   }
 
   #navbarNavAltMarkup {
@@ -22,18 +22,22 @@
     margin-top: 20px !important;
     display: flex !important;
     justify-content: center !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
     text-transform: uppercase !important;
   }
 
   .navbar-nav {
-    margin-top: 30px !important;
+    margin-top: 5px !important;
   }
 
   .imgNav{
     width: 210px !important;
+    height: 100px !important;
   }
 
+  .navFijo{
+    padding-bottom: 50px !important;
+  }
   .dividerIndexSeccion {
     height: 0.8rem;
     max-width: 5rem;
@@ -74,7 +78,6 @@
     width: 400px;
     height: 400px;
 }
-
 
 
   .img-pasos-sv {
@@ -244,9 +247,7 @@
 
 
 
-  .container__riesgos {
-    width: 300px !important;
-  }
+
 
 
   .container__beneficios {

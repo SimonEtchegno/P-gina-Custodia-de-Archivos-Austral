@@ -45,6 +45,7 @@
 .swipeDown {
   position: relative;
   top: 100px !important;
+  left: 20px !important;
   color: var(--primary-color);
   animation-name: pulse;
   animation: pulse 2s 3s ease-out infinite;
