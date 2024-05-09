@@ -545,6 +545,7 @@ li::marker {
     font-optical-sizing: auto;
     font-style: normal;
     box-sizing: border-box;
+    overflow-x: hidden !important;
   }
   .navbar-toggler {
     background-color: rgba(133, 133, 133, 0.8470588235) !important;
@@ -561,6 +562,9 @@ li::marker {
   }
   .navbar-nav {
     margin-top: 30px !important;
+  }
+  .imgNav {
+    width: 210px !important;
   }
   .dividerIndexSeccion {
     height: 0.8rem;
@@ -593,8 +597,6 @@ li::marker {
     margin: 0 50px;
     width: 400px;
     height: 400px;
-    position: relative;
-    left: 63px !important;
   }
   .img-pasos-sv {
     width: 70px !important;
@@ -615,15 +617,11 @@ li::marker {
     position: relative;
     left: 0px !important;
     margin-bottom: 60px !important;
-    margin-left: 20px;
   }
   .parrafo-flexible {
     font-size: 20px;
     color: #003399;
     font-family: "Red Hat Display", sans-serif;
-  }
-  .container-servicios {
-    margin: 10px !important;
   }
   .container__riesgos {
     width: 300px !important;

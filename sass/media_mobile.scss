@@ -6,7 +6,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     box-sizing: border-box;
-
+    overflow-x: hidden !important;
   }
 
 
@@ -28,6 +28,10 @@
 
   .navbar-nav {
     margin-top: 30px !important;
+  }
+
+  .imgNav{
+    width: 210px !important;
   }
 
   .dividerIndexSeccion {
@@ -69,9 +73,9 @@
     margin: 0 50px;
     width: 400px;
     height: 400px;
-   position: relative;
-   left: 63px !important;
 }
+
+
 
   .img-pasos-sv {
     width: 70px !important;
@@ -96,7 +100,6 @@
     position: relative;
     left: 0px !important;
     margin-bottom: 60px !important;
-    margin-left: 20px;
     }
 
 
@@ -107,11 +110,6 @@
   font-family: "Red Hat Display", sans-serif;
   }
 
-
-
-.container-servicios{
-  margin: 10px !important;
-}
 
   .container__riesgos {
     width: 300px !important;
