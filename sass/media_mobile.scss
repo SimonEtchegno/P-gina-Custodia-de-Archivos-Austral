@@ -66,23 +66,22 @@
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
-    margin-bottom: 100px !important;
 
 }
 
 .elemento{
-    flex: 1 0 auto;
-    margin: 0 50px;
-    width: 400px;
-    height: 400px;
+  flex: 1 0 auto;
+  /* margin: 0 50px; */
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .containerSwipDerecha {
   display: flex !important;
-  justify-content: flex-end !important;
-  position: relative;
-  right: 200px;
-  bottom: 250px;
+  justify-content: center !important;
+  margin-bottom: 150px !important;
 }
 
 .containerSwipDerecha img {
