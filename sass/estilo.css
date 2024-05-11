@@ -804,7 +804,13 @@ li::marker {
   .containerBeneficios2 {
     height: 0% !important;
   }
+  .containerSwipDerechaBeneficios {
+    display: none;
+  }
   .carrousel {
+    display: none;
+  }
+  .nonePC {
     display: none;
   }
 }
@@ -821,6 +827,9 @@ li::marker {
     display: none;
   }
   .containerSwipDerecha {
+    display: none;
+  }
+  .containerSwipDerechaBeneficios {
     display: none;
   }
   .containerSeccion {

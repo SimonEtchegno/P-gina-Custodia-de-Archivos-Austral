@@ -290,14 +290,10 @@ justify-content: center;
     color: whitesmoke;
   }
 
-
   .img-pasos-sv {
     width: 70px !important;
 
   }
-
-
-
 
   .h2-servicio-adicional {
     margin-top: 50px;
@@ -306,10 +302,6 @@ justify-content: center;
   .beneficios {
     margin-bottom: 0px !important;
   }
-
-
-
-
 
 
   .container__beneficios {
@@ -324,6 +316,11 @@ justify-content: center;
 
   .containerBeneficios2 {
     height: 0% !important;
+  }
+
+  .containerSwipDerechaBeneficios{
+    display: none;
+  
   }
 
   .carrousel{
@@ -351,6 +348,11 @@ justify-content: center;
 }
   .containerSwipDerecha{
     display: none;
+  }
+
+  .containerSwipDerechaBeneficios{
+    display: none;
+  
   }
 
   .containerSeccion {
