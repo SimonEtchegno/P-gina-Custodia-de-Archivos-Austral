@@ -796,7 +796,7 @@ li::marker {
   }
   .container__beneficios {
     overflow: hidden;
-    width: 250px !important;
+    width: 245px !important;
   }
   .containerBeneficios {
     height: 0% !important;
@@ -811,6 +811,9 @@ li::marker {
     display: none;
   }
   .nonePC {
+    display: none;
+  }
+  .containerSwipDerecha {
     display: none;
   }
 }
