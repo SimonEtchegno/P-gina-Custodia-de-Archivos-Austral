@@ -106,6 +106,22 @@ justify-content: center;
   right: 50px;
 }
 
+
+.containerSwipDerechaBeneficios{
+  display: flex !important;
+  justify-content: center !important;
+  right: 50px;
+
+}
+
+.containerSwipDerechaBeneficios img{
+  width: 70px !important;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 0.9s;
+
+}
+
 .containerSwipDerecha img {
   width: 70px !important;
   animation-name: pulse;
@@ -191,7 +207,7 @@ justify-content: center;
 
 .container__beneficios{
   flex: 1 0 auto;
- margin: 0 92px; 
+ margin: 0 112px; 
 width: 300px;
 height: 200px;
 display: flex;
@@ -322,7 +338,9 @@ justify-content: center;
     flex-direction: row;
 
   }
-
+.nonePC{
+  display: none;
+}
   .containerSwipDerecha{
     display: none;
   }
