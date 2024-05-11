@@ -1,3 +1,9 @@
+.containerImgServicio{
+  max-width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
 .tituloServicio {
   color: #003399;
   font-family: "Red Hat Display", sans-serif;
@@ -20,8 +26,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
-  left: 100px;
+  padding-right: 50px;
+  padding-left: 70px;
 }
 
 .containerliPasos li{
@@ -29,28 +35,20 @@
   margin-bottom: 40px !important;
 }
 
-.containerImgServicio{
-  position: relative;
-  left: 80px !important;
-  margin-bottom: 150px !important;
-  margin-top: 100px;
-}
 
 .container-img{
   
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-content: flex-start;
+  justify-content: space-evenly;
+  align-content: flex-end;
   align-items: center;
   position: relative;
-  bottom: 35px;
+  bottom:58px;
+  left: 110px;
 
 }
 
-.container-img-pasos{
-  margin-bottom: 20px ;
-}
 
 
 .p-servicio-adicional {

@@ -19,6 +19,10 @@
   margin-bottom: 10px;
 }
 
+.container__img__riesgos img {
+  padding-top: 15px !important;
+}
+
 .containerBeneficios {
   max-width: 100% !important;
   color: rgb(255, 255, 255);
@@ -47,8 +51,8 @@
   color: rgb(0, 0, 0);
   border-radius: 15px;
   margin: 6px;
-  height: 300px !important;
-  width: 300px !important;
+  height: 280px !important;
+  width: 250px !important;
   background: rgba(255, 255, 255, 0.404);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
@@ -63,6 +67,7 @@
 .container__beneficios h1 {
   font-size: 30px;
   margin: 10px;
+  margin-top: 0px !important;
 }
 
 .beneficios {
@@ -96,8 +101,8 @@
   color: rgb(0, 0, 0);
   border-radius: 15px;
   margin: 6px;
-  height: 300px !important;
-  width: 260px !important;
+  height: 280px !important;
+  width: 250px !important;
   background: rgba(255, 255, 255, 0.404);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);

@@ -7,6 +7,8 @@ function limpiar() {
 
 }
 
+
+
 ScrollReveal().reveal('.containerMarcas',{ delay:100});
 ScrollReveal().reveal('.containerImgServicio',{ delay:1000});
 ScrollReveal().reveal('.container-servicios',{ delay:100});
