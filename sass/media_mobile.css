@@ -75,6 +75,7 @@
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding-bottom: 50px !important;
     justify-content: flex-start;
   }
   .containerSwipDerecha {
@@ -155,7 +156,7 @@
     background-attachment: fixed;
     background-position: left;
     background-repeat: repeat;
-    height: 850px;
+    height: 800px !important;
     width: 100% !important;
     background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
   }
