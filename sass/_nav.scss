@@ -1,7 +1,6 @@
 .imgNav {
   position: relative;
   bottom: 10px ;
-  width: 250px;
   height: 125px;
 }
 
@@ -17,10 +16,6 @@
   transition-delay: 1.5s;
 }
 
-#navbarNavAltMarkup{
-  position: relative;
-  bottom: 15px;
-}
 
 .navFijo{
   background-color: rgb(255, 255, 255);
@@ -64,13 +59,3 @@
   transform: scale(1, 1);
 }
 
-.servicioNav{
-  font-family: "Caveat", cursive;
-  font-style: normal;
-  font-size: 30px;
-  color: #01319c;
-  text-decoration: none;
-  text-align: center;
-  position: relative;
-  bottom: 10px;
-}

@@ -1,4 +1,13 @@
 @media only screen and (min-width: 300px) and (max-width: 976px) {
+  .home {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    height: 800px !important;
+    width: 100% !important;
+    background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
+  }
 
   /* INDEX */
   body {
@@ -11,7 +20,7 @@
 
 
   .navbar-toggler {
-    background-color: #ff6600 !important;
+    background-color: #ffbb00dc !important;
   }
 
   #navbarNavAltMarkup {
@@ -29,12 +38,14 @@
   .navbar-nav {
     margin-top: 5px !important;
   }
-.navFijo{
-  background-color: rgb(255, 255, 255);
-  padding-top: 10px;
-  height: 100% !important;
-}
-  .imgNav{
+
+  .navFijo {
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    height: 100% !important;
+  }
+
+  .imgNav {
     width: 210px !important;
     height: 100px !important;
   }
@@ -50,8 +61,8 @@
     margin-right: auto;
   }
 
-  .servicioNav{
-    display: none;
+  .servicioNav {
+    display: none !important;
   }
 
   .img-hover-zoom {
@@ -70,69 +81,86 @@
   }
 
 
+  .carrousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
 
+  }
 
-.carrousel{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: scroll;
+  .elemento {
+    flex: 1 0 auto;
+    /* margin: 0 50px; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
 
-}
+  .container-carrousel-pasos{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
 
-.elemento{
-flex: 1 0 auto;
-/* margin: 0 50px; */
-width: 100%;
-height: 200px;
-display: flex;
-justify-content: center;
-}
-
-
-.none{display: none;}
-
-.beneficios{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: scroll;
-  padding-bottom: 50px !important;
-  justify-content: flex-start;
-}
-
-.containerSwipDerecha {
-  display: flex !important;
-  justify-content: center !important;
-  margin-bottom: 150px !important;
-  right: 50px;
-}
-
-
-.containerSwipDerechaBeneficios{
-  display: flex !important;
-  justify-content: center !important;
-  right: 50px;
-
-}
-
-.containerSwipDerechaBeneficios img{
-  width: 70px !important;
-  animation-name: pulse;
-  animation: pulse 2s 3s ease-out infinite;
-  transition-delay: 0.9s;
-
-}
-
-.containerSwipDerecha img {
-  width: 70px !important;
-  animation-name: pulse;
-  animation: pulse 2s 3s ease-out infinite;
-  transition-delay: 0.9s;
-}
+  .container-img-pasos{
+    flex: 1 0 auto;
+    /* margin: 0 50px; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+  }
 
 
   .img-pasos-sv {
-    width: 70px !important;
+    width: 150px !important;
+    height: 120px !important;
   }
+  .none {
+    display: none;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-bottom: 50px !important;
+    justify-content: flex-start;
+  }
+
+  .containerSwipDerecha {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 150px !important;
+    right: 50px;
+  }
+
+
+  .containerSwipDerechaBeneficios {
+    display: flex !important;
+    justify-content: center !important;
+    right: 50px;
+
+  }
+
+  .containerSwipDerechaBeneficios img {
+    width: 70px !important;
+    animation-name: pulse;
+    animation: pulse 2s 3s ease-out infinite;
+    transition-delay: 0.9s;
+
+  }
+
+  .containerSwipDerecha img {
+    width: 70px !important;
+    animation-name: pulse;
+    animation: pulse 2s 3s ease-out infinite;
+    transition-delay: 0.9s;
+  }
+
+
 
   .containerImgServicio {
     position: relative;
@@ -142,39 +170,39 @@ justify-content: center;
 
   }
 
-.containerMarcas{
-  display: none !important;
-}
+  .containerMarcas {
+    display: none !important;
+  }
 
-.containerliPasos {
+  .containerliPasos {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: relative;
     left: 0px !important;
     margin-bottom: 60px !important;
-    }
+  }
 
-.container-img{
-  display: none;
-}
+  .container-img {
+    display: none;
+  }
 
-.parrafo-flexible {
-  font-size: 20px;
-  color: #003399;
-  font-family: "Red Hat Display", sans-serif;
+  .parrafo-flexible {
+    font-size: 20px;
+    color: #003399;
+    font-family: "Red Hat Display", sans-serif;
   }
 
 
- 
+
 
   .containerBeneficios {
     height: 0% !important;
   }
 
-  .container__beneficios:hover{
+  .container__beneficios:hover {
     transform: translateY(0px) !important;
-}
+  }
 
   .beneficios {
     margin: 0px !important;
@@ -199,25 +227,16 @@ justify-content: center;
     color: whitesmoke;
   }
 
-  .home {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: repeat;
-    height: 800px !important;
-    width: 100% !important;
-    background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
+
+  .container__beneficios {
+    flex: 1 0 auto;
+    margin: 0 74px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
   }
-
-.container__beneficios{
-  flex: 1 0 auto;
- margin: 0 74px; 
-width: 300px;
-height: 200px;
-display: flex;
-justify-content: center;
-
-}
 
   footer {
     height: 0% !important;
@@ -246,7 +265,7 @@ justify-content: center;
     flex-direction: column;
   }
 
-  .container-redes .row{
+  .container-redes .row {
     display: flex;
     justify-content: center;
   }
@@ -267,14 +286,14 @@ justify-content: center;
     align-items: flex-start;
     width: 240px;
     padding: 0px !important;
-    margin: 10px ;
-}
+    margin: 10px;
+  }
 
-.iconoFooter img{
-  margin-right: 10px !important;
-  position: relative;
-  bottom: 10px;
-}
+  .iconoFooter img {
+    margin-right: 10px !important;
+    position: relative;
+    bottom: 10px;
+  }
 
 }
 
@@ -318,46 +337,62 @@ justify-content: center;
     height: 0% !important;
   }
 
-  .containerSwipDerechaBeneficios{
+  .containerSwipDerechaBeneficios {
     display: none;
-  
+
   }
 
-  .carrousel{
-    display: none;
-  }
-
-  .nonePC{
+  .servicioNav {
     display: none;
   }
 
-  .containerSwipDerecha{
+  .carrousel {
+    display: none !important;
+  }
+
+  .nonePC {
+    display: none !important;
+  }
+.container-carrousel-pasos{
+  display: none !important;
+}
+  .containerSwipDerecha {
     display: none;
   }
+
 
 }
 
 @media only screen and (min-width: 1378px) and (max-width:1920px) {
 
-  .carrousel{
+
+  .carrousel {
     display: none;
   }
+
   .containerImg .col-lg-3 {
     display: flex !important;
     justify-content: center;
     flex-direction: row;
 
   }
-.nonePC{
-  display: none;
-}
-  .containerSwipDerecha{
+
+  .nonePC {
+    display: none !important;
+  }
+
+  .containerSwipDerecha {
     display: none;
   }
 
-  .containerSwipDerechaBeneficios{
+
+  .container-carrousel-pasos{
+    display: none !important;
+  }
+
+  .containerSwipDerechaBeneficios {
     display: none;
-  
+
   }
 
   .containerSeccion {
@@ -432,5 +467,7 @@ justify-content: center;
     transform: scale(1, 1);
   }
 
-
+  .servicioNav {
+    left: 500px !important;
+  }
 }

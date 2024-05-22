@@ -1,3 +1,12 @@
+window.addEventListener('load',() =>{
+    const contenedor_loader = document.querySelector('.loader')
+    contenedor_loader.style.opacity = 0
+    contenedor_loader.style.visibility = 'hidden'
+})
+
+
+
+
 function limpiar() {   
     const element = document.querySelector(".textoParallaxIndex ");
     element.innerHTML = "";  
@@ -6,6 +15,7 @@ function limpiar() {
     up.remove();
 
 }
+
 
 
 

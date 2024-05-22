@@ -2,14 +2,23 @@
   background-image: url("../assets/images/pexels-tima-miroshnichenko-6170154.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: 900px !important;
   width: 100% !important;
   margin-bottom: 70px;
   position: relative;
 }
 
-
+.servicioNav{
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 320px;
+  left: 630px;
+  color: white;
+}
 .textoParallaxIndex {
   position: relative;
   top: 150px !important;

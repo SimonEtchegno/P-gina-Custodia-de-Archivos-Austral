@@ -54,7 +54,7 @@ footer {
   width: 0;
   background: #313036;
   border-left: 2px solid #959595;
-  animation: escribir 3s steps(36) infinite alternate;
+  animation: escribir 4s steps(36) infinite alternate;
 }
 
 @keyframes escribir {
@@ -66,7 +66,7 @@ footer {
   }
 }
 .creadorPagina__creador:hover {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .containerSwip {
